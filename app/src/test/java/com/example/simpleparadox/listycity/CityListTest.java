@@ -31,7 +31,18 @@ class CityListTest {
     
     @Test
     void testGetCities(){
-        CityList citylist = mockCityList();
+        CityList cityList = mockCityList();
         assertEquals(0, mockCity().compareTo(cityList.getCities().get(0)));
+    }
+
+    @Test
+    void testClearCities(){
+        CityList cityList = mockCityList();
+        cityList.add(new City("Regina", "Saskatchewan"));
+        cityList.add(new City("Vancouver", "British Columbia"));
+        cityList.clearCities();
+        assertEquals(0, cityList.countCities());
+
+    }
         
 }
