@@ -1,4 +1,4 @@
-#Mon Nov 02 12:46:43 MST 2020
+#Mon Nov 02 13:04:55 MST 2020
 base.0=C\:\\Users\\yf_wa\\Desktop\\301lab8\\301lab8\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
